@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image:url('./weather.jpg');
+    background-size:cover;
+}
+.container{
+    width:600px;
+    margin:100px auto;
+    padding:40px;
+}
+.inputs{
+    padding:2rem 0 2rem 0;
+    text-align:center;
+    justify-content:center;
+    background: rgb(220, 180, 180);
+    height:150px;
+}
+.inputs input[type="text"]{
+    height:4rem;
+    width:20rem;
+    background:black;
+    font-weight:bold;
+    font-size:1rem;
+    padding:10px;
+    border:none;
+    background-color:transparent;
+    border:2px solid #0000;
+    border-radius:3px;
+    margin-right: 4px;
+}
+.inputs input[type="submit"]{
+    height:3rem;
+    width:6rem;
+    background:rgb(23, 23, 204);
+    font-weight:bold;
+    color:white;
+    font-size:1rem;
+    margin-top:20px;
+    border:none;
+    border-radius:4px;
+}
+.display{
+    text-align:center;
+    width:520px;
+    color:rgb(87, 138, 87);
+}
+.wrapper{
+    margin:0 9rem;
+    background-color:cyan;
+    height:45vh;
+    margin:50px auto;
+    border-radius:2px;
+}
+.wrapper h2{
+    padding:5px 0;
+    text-align:center;
+    background:rgb(8, 8, 172);
+    color:white;
+}
+.wrapper p{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: rgb(6, 6, 72);
+    font-size:25px;
+}
+.wrapper p span{
+    color:rgb(115, 20, 205);
+    font-size:30px;
+}
